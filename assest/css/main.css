@@ -28,7 +28,7 @@ body {
 }
 
 .active {
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .welcome-container {
@@ -62,7 +62,7 @@ footer {
    font-size: 11px;
 }
 
-.about-container {
+.about-container, .catalog-container {
 	padding-top: 6rem;
 }
 
