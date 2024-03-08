@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
+
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar {
+	font-family: "Oswald", sans-serif;
+    padding: 0rem;
+}
+
+.navbar-brand, .navbar-brand:hover {
+	color: #333;
+	font-weight: 700;
+}
+
+.welcome-container {
+	padding-top: 15rem;
+}
+
+.welcome-container h1 {
+	font-size: 46px;
+	font-weight: 700;
+}
+
+.welcome-container h3 {
+	font-size: 27px;
+}
+
+.welcome-container a {
+	padding-top: 15px;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #fff;
+   color: #333;
+   padding-top: 7px; 
+   padding-bottom: 7px;
+   text-align: center;
+   border-top: 1px solid rgba(51, 51, 51, .3);
+   font-size: 11px;
+}
